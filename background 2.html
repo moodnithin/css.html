@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>welcome</h1>
+    <h1>welcome</h1>
+    <h1 class="abc">welcome</h1>
+    <h1>welcome</h1>
+    <h1>welcome</h1>
+
+    <p>welcome to class</p>
+    <p class="abc">welcome to class</p>
+    <p>welcome to class</p>
+    <p class="abc">welcome to class</p>
+    <p>welcome to class</p>
+    <p class="abc">welcome to class</p>
+    <button onclick="demo()">submit</button>
+    <script>
+        function demo()
+        {
+    // let num=document.getElementsByTagName('h1')
+    // console.log(num)
+
+    // for(i=0;i<=num.length-1;i++)
+    //     {
+    //         num[i].style.backgroundColor='aqua'
+    //         num[i].style.color='red'
+    //     }
+
+
+                let num1=document.getElementsByClassName('abc')
+                console.log(num1)
+                for(i=0;i<=num1.length-1;i++)
+                {
+                    num1[i].style.color='red'
+                    num1[i].style.backgroundColor='green'
+                    num1[i].style.padding='20px'
+                }
+        }
+
+
+    </script>
+</body>
+</html>
